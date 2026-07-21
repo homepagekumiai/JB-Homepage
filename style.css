@@ -58,8 +58,15 @@ body {
 
 .hero-text p {
     margin-top: 15px;
+   
     font-size:clamp(1rem,2.2vw,2rem);
     color: #FFFF88;
+}
+.hero-text p b {
+    color: #fff;
+    background: rgba(0,0,0,0.25);
+    padding: 2px 6px;
+    border-radius: 4px;
 }
 
 /* =========================
@@ -67,13 +74,13 @@ body {
    ========================= */
 
 nav {
-    background: #99FFFF;
-    padding: 10px;
+    background: #FFFF77;
+    padding: 15px;
     text-align: center;
 }
 
 nav a {
-    color: #000080;
+    color: #5507FF;
     text-decoration: none;
     margin: 0 15px;
     padding: 8px 15px;
@@ -86,7 +93,7 @@ nav a {
 
 nav a:hover {
     background-color: #ffd54f;
-    color: #000080;
+    color: #99FFFF;
     transform: translateY(-3px);
 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -114,7 +121,7 @@ section {
 }
 
 h2 {
-    color: #0d6efd;
+    color: #660033;
 }
 
 /* =========================
