@@ -44,7 +44,7 @@ body {
 }
 
 .hero-text h1 {
-    color: #0000FF;
+    color: #FFFF00;
     text-shadow: 2px 2px 8px rgba(0,0,0,.8);
 
     font-size: clamp(2.4rem, 5.8vw, 5.2rem);
